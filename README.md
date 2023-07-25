@@ -213,7 +213,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [LinkedIn](https://www.linkedin.com/in/toheeb-badru/) - toheebbadru97@yahoo.com
+Toheeb Badru - [LinkedIn](https://www.linkedin.com/in/toheeb-badru/) - toheebbadru97@yahoo.com
 
 Project Link: [https://github.com/TBadru/Personal-Website](https://github.com/TBadru/Personal-Website)
 
