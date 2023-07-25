@@ -86,7 +86,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Personal website  imitating iMessage.
+Personal website/portfolio  imitating iMessage.
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
