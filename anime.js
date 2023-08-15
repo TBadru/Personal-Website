@@ -1,6 +1,9 @@
 /*
- * 
+ *animation library for creating smooth animations with various easing functions. It defines a variable named "anime" which holds a function 
+ that can be used to create and control animation 
  */
+
+ // variable declared
 var anime = function() {
     var t = {
             linear: function(t, n, e, r) {

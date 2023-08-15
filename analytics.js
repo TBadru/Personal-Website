@@ -1,5 +1,6 @@
 /*
- *
+dynamically creates and animates chat bubbles on a webpage, simulating a conversation-like interface. 
+The messages appear one by one with loading animations, typing effects, and other visual enhancements. *
  */
 
 window.onload = function() {

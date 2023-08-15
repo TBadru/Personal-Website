@@ -1,12 +1,6 @@
-/*
-<a target="_blank" href="https://twitter.com/">twitter</a>
-<br>
-<a target="_blank" href="https://instagram.com/">instagram</a>
-<br>
-<a target="_blank" href="https://twitch.tv/">twitch</a>
-<br>
-🔗 <a target="_blank" href="https://www.linkedin.com/in/toheeb-badru/">LinkedIn</a><br>
- */
+
+// an interactive chat-like user interface with a dynamic typewriter effect for each message.
+
 
  const options = {
   bottom: '64px', // default: '32px'
@@ -22,16 +16,19 @@
   autoMatchOsTheme: true // default: true
  }
 
+ // darkmode widget configuration 
  const darkmode = new Darkmode(options);
 darkmode.showWidget();
 
 window.onload = function() {
 
+  // declaring variables
   var messagesEl = document.querySelector('.textsInBubbles');
   var typingSpeed = 20;
   var loadingText = '<b>•</b><b>•</b><b>•</b>';
   var messageIndex = 0;
 
+  // returns a message based on time of the day.
   var getCurrentTime = function() { 
     var date = new Date();
     var hours =  date.getHours();
@@ -42,9 +39,10 @@ window.onload = function() {
     if (current >= 22 || current < 5) return 'Have a good night 🌃.';
   }
  
+  //array containing a series of messages to be displayed in the chat bubbles.
   var textsInBubbles = [
     'Hey there 👋.',
-    'I\'m Dayò 🧑🏾.',
+    'I\'m Toheeb 🧑🏾.',
     'An ambitious full-stack software engineer with a passion for creating innovative and scalable solutions 👨🏾‍💻.',
     'I have worked on projects in various domains such as International Trade, Publishing, Financial and Insurance sectors, delivering high-quality software that meets the needs of the clients 🧮.',
     'I am always eager to learn new skills and take on new challenges in the software development field 🧠.',
@@ -56,14 +54,17 @@ window.onload = function() {
     '🚀 D.'  
   ]
 
+  // Retrieves the font size of the page.
   var getFontSize = function() {
     return parseInt(getComputedStyle(document.body).getPropertyValue('font-size'));
   }
 
+  // converts pixel to rem relative to the font size
   var pxToRem = function(px) {
     return px / getFontSize() + 'rem';
   }
 
+  // creates the HTML elements for a chat bubble containing a message and assigns classes, content, and styles to different parts of the bubble.
   var createBubbleElements = function(message, position) {
     var bubbleEl = document.createElement('div');
     var messageEl = document.createElement('span');
@@ -86,6 +87,8 @@ window.onload = function() {
     }
   }
 
+
+  // Calculates dimensions for the bubble and its contents (message and loading animation)
   var getDimentions = function(elements) {
     return dimensions = {
       loading: {
@@ -102,6 +105,10 @@ window.onload = function() {
       }
     }
   }
+
+  //handles the animation and display of a chat bubble with a message.
+  //It appends the bubble to the container and adjusts its position if necessary.
+  //It utilizes the anime library from anime.js for animations, such as growing the bubble, showing the message, and simulating a typing effect.
 
   var sendMessage = function(message, position) {
     var loadingDuration = (message.replace(/<(?:.|\n)*?>/gm, '').length * typingSpeed) + 500;
