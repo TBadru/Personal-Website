@@ -86,7 +86,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Personal website/portfolio  imitating iMessage.
+ A personal portfolio webpage with an interactive chat-like iMessage interface that potentially displays dynamic messages and links.
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
