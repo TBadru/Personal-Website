@@ -1,7 +1,5 @@
 
 // an interactive chat-like user interface with a dynamic typewriter effect for each message.
-
-
  const options = {
   bottom: '64px', // default: '32px'
   right: '32px', // default: '32px'
@@ -43,13 +41,12 @@ window.onload = function() {
   var textsInBubbles = [
     'Hey there 👋.',
     'I\'m Toheeb 🧑🏾.',
-    'An ambitious full-stack software engineer with a passion for creating innovative and scalable solutions 👨🏾‍💻.',
-    'I have worked on projects in various domains/industries such as International Trade, Publishing, Insurance and technology, Aerospace and Aviation, delivering high-quality software that meets the needs of the business/clients 🧮.',
-    'I am always eager to learn new skills and take on new challenges in the Information Technology Industry🧠.',
+    'An ambitious and passionate software engineer with a deep interest in building innovative, scalable, and efficient software solutions. My work encompasses multiple aspects of software engineering, including design, development, programming, testing, deployment, CI/CD, maintenance, and other software-related tasks, with a constant drive to adapt, learn, and solve real-world problems. 👨🏾‍💻.',
+    'I\'ve had the opportunity to work on impactful projects across various industries, including International Trade, Healthcare and Technology, Publishing, InsurTech, Aerospace, and Defence — always focused on delivering high-quality software that meets both business and client needs. 🧮',
+    'I\'m always open to learning, collaborating, and exploring new technologies. Whether it\'s contributing to a challenging project, improving development workflows, or picking up a new tech stack, I\'m excited to grow and make an impact in the tech industry 🧠.',
     'You can reach me by <a style="text-decoration:none;" href="mailto:toheebbadru97@yahoo.com">📧</a> & <a style="text-decoration:none;"href="tel:+447874315715">☎️</a>.',
     'Here\'s a copy of my <a target="_blank" style="text-decoration:none;" href="Toheeb Badru CV Copy.pdf">CV</a> 📄.',
     'Connect with me on <a target="_blank" style="text-decoration:none;" href="https://www.linkedin.com/in/toheeb-badru/">LinkedIn</a> & <a target="_blank"style="text-decoration:none;" href="https://github.com/TBadru">Github</a> .',
-    // 'Want to play some 1v1 <a target="_blank" href="chess.html">chess</a> ?', //
     getCurrentTime(),
     '🚀 D.'  
   ]
