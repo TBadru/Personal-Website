@@ -1,9 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/TBadru/PERSONAL-PORTFOLIO-WEBSITE">
-    <img src="logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
 <h3 align="center">Personal Website</h3>
 
