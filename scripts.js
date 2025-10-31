@@ -45,7 +45,7 @@ window.onload = function() {
     'I\'ve had the opportunity to work on impactful projects across various industries, including International Trade, Healthcare and Technology, Publishing, InsurTech, Aerospace, and Defence — always focused on delivering high-quality software that meets both business and client needs. 🧮',
     'I\'m always open to learning, collaborating, and exploring new technologies. Whether it\'s contributing to a challenging project, improving development workflows, or picking up a new tech stack, I\'m excited to grow and make an impact in the tech industry 🧠.',
     'You can reach me by <a style="text-decoration:none;" href="mailto:toheebbadru97@yahoo.com">📧</a> & <a style="text-decoration:none;"href="tel:+447874315715">☎️</a>.',
-    'Here\'s a copy of my <a target="_blank" style="text-decoration:none;" href="Toheeb Badru CV Copy.pdf">CV</a> 📄.',
+    'Here\'s a copy of my <a target="_blank" style="text-decoration:none;" href="">CV</a> 📄.',
     'Connect with me on <a target="_blank" style="text-decoration:none;" href="https://www.linkedin.com/in/toheeb-badru/">LinkedIn</a> & <a target="_blank"style="text-decoration:none;" href="https://github.com/TBadru">Github</a> .',
     getCurrentTime(),
     '🚀 D.'  
